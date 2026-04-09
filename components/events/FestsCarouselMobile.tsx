@@ -241,13 +241,13 @@ const cardVariants = {
     rotate: 0,
     opacity: 1,
     scale: 1,
-    transition: { type: "spring", stiffness: 300, damping: 28 },
+    transition: { type: "spring" as const, stiffness: 300, damping: 28 },
   },
   exit: (dir: number) => ({
     x: dir > 0 ? -260 : 260,
     rotate: dir > 0 ? -10 : 10,
     opacity: 0,
     scale: 0.85,
-    transition: { duration: 0.22, ease: "easeIn" },
+    transition: { duration: 0.22, ease: "easeIn" as const},
   }),
 };
