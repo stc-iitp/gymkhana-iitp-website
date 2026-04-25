@@ -14,7 +14,7 @@ export default function HeroSection() {
         playsInline
         preload="auto"
       >
-        <source src="images/Drone_Shot.mp4" type="video/mp4" />
+        <source src="/images/Drone_Shot.mp4" type="video/mp4" />
       </video>
 
       {/* Dark overlay */}

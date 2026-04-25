@@ -14,7 +14,7 @@ export default function Footer() {
           {/* About */}
           <div className="space-y-4">
             <Image
-              src="images/logo.png"
+              src="/images/logo.png"
               alt="Students' Gymkhana IIT Patna"
               width={80}
               height={80}
@@ -54,7 +54,7 @@ export default function Footer() {
               <li><Link href="/office-bearers">Office Bearers</Link></li>
               <li><a href="/developers" aria-label="Developers" className=''>
               {/* <img
-                src="images/dev.png"
+                src="/images/dev.png"
                 alt="Developers"
                 className="w-6 h-6 hover:scale-110 hover:opacity-80 transition"
               /> */}
