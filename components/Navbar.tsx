@@ -75,7 +75,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/images/logo.png"
+              src="images/logo.png"
               alt="IIT Patna Gymkhana Logo"
               width={130}
               height={70}

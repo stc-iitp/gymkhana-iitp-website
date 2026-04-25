@@ -11,7 +11,7 @@ export default function OpenHouseClient() {
         <div className="max-w-7xl mx-auto flex items-center gap-6 px-6 py-3">
           <a href="https://www.iitp.ac.in">
             <img
-              src="/images/logo.png"
+              src="images/logo.png"
               alt="IIT Patna Logo"
               className="h-14 bg-white p-1 rounded"
             />
